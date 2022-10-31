@@ -1,0 +1,41 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    height: 98vh;
+}
+section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 400px;
+
+}
+p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+}
+.p1{
+    transform: translate(-70%, -50%);
+}
+.p2{
+    transform: translate(25%, 50%);
+}
+.Divmeme{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.288);
+    border: 5px solid black;
+}
